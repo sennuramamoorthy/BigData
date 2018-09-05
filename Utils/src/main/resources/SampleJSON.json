@@ -1,0 +1,22 @@
+{
+  "box": "testBox1",
+  "description": "Testing Simple template",
+  "condition": "su,mo,tu,we,th,fr,sa",
+  "timezone": "US/Eastern",
+  "jobs": [
+    {
+      "job": "testJob1",
+      "description": "testing job 1",
+      "condition": "12:00 AM",
+      "machine": "machine1",
+      "command": "job1script.sh"
+    },
+    {
+      "job": "testJob2",
+      "description": "testing job 2",
+      "condition": "1:00 PM",
+      "machine": "machine2",
+      "command": "job2script.sh"
+    }
+  ]
+}
